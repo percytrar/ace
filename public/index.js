@@ -6,6 +6,9 @@ $(window).scroll(()=>{
 })
 
 $('#contact-form').submit(()=>{
+    $('#name-user').val('');
+    $('#email-user').val('');
+    $('#message-user').val('');
     toastr.success('Your Message Was Sent Successfully!', 'Avenger Ace Says');
 });
 
