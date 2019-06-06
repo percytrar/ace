@@ -1,0 +1,15 @@
+{
+  "name": "kg",
+  "version": "1.0.0",
+  "description": "A sample website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d"
+  },
+  "author": "Prashant Trar",
+  "license": "ISC",
+  "homepage": "https://percytrar.github.io/ace",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
